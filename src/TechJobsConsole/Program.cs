@@ -126,6 +126,7 @@ namespace TechJobsConsole
             }
             else
             {
+                someJobs.Sort();
                 foreach (Dictionary<string, string> job in someJobs)
                 {
                     Console.WriteLine("*****");
